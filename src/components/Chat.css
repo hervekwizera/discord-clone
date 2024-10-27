@@ -1,0 +1,32 @@
+.chat {
+    flex: 1;
+    background-color: #36393f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat__header {
+    padding: 10px;
+    border-bottom: 1px solid #4f545c;
+  }
+  
+  .chat__messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .chat__input {
+    padding: 10px;
+    border-top: 1px solid #4f545c;
+  }
+  
+  .chat__input input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #40444b;
+    color: white;
+    border-radius: 5px;
+  }

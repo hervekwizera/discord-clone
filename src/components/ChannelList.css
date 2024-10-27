@@ -1,0 +1,15 @@
+.channelList {
+    width: 250px;
+    background-color: #2f3136;
+    color: white;
+    padding: 10px;
+  }
+  
+  .channelList__channel {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .channelList__channel:hover {
+    background-color: #393c43;
+  }
